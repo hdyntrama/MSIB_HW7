@@ -63,3 +63,8 @@ source=9.67.116.98:8000] ceased
 03/22 08:54:53 INFO   :......dreg_process: attempt to dereg (ifaeddrg_byaddr)
 03/22 08:54:53 INFO   :......dreg_process: rc from ifaeddrg_byaddr  rc =0
 03/22 08:54:53 INFO   :.....terminator: process terminated with exit code 0`
+
+fs.writeFile('log.txt', (data), (err) => {
+    if (err) console.log(err);
+    console.log(`Sucsessfully write`)
+});
