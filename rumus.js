@@ -13,7 +13,7 @@ function luasPersegiPanjang(panjang, lebar) {
     return panjang * lebar
 }
 
-//Keliling Persegi Panjang
+//Kel. Persegi Panjang
 function kelilingPersegiPanjang(panjang, lebar) {
     return 2 * (panjang + lebar)
 }

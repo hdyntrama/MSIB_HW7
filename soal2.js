@@ -68,3 +68,8 @@ fs.writeFile('log.txt', (data), (err) => {
     if (err) console.log(err);
     console.log(`Sucsessfully write`)
 });
+
+fs.readFile('log.txt', 'utf-8', (err, data) => {
+    if (err) console.log (err);
+    console.log(`sucsessfully read`, data);
+})
